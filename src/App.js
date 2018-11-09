@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Contacts from "./componets/Contacts";
-import Header from "./componets/Header";
+import Contacts from "./componets/contacts/Contacts";
+import Header from "./componets/layout/Header";
+import AddContact from "./componets/contacts/AddContact";
 import { Provider } from "./context";
 
 import "./App.css";
@@ -13,6 +14,7 @@ class App extends Component {
         <div className="App">
           <Header branding="Contact Manager" />
           <div className="container">
+            <AddContact />
             <Contacts />
           </div>
         </div>
