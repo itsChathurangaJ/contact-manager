@@ -5,6 +5,7 @@ import Header from "./componets/layout/Header";
 import AddContact from "./componets/contacts/AddContact";
 import About from "./componets/pages/About";
 import NotFound from "./componets/pages/NotFound";
+import Test from "./componets/test/Test";
 
 import { Provider } from "./context";
 
@@ -23,6 +24,7 @@ class App extends Component {
                 <Route exact path="/" component={Contacts} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/contact/add" component={AddContact} />
+                <Route exact path="/test" component={Test} />
                 <Route component={NotFound} />
               </Switch>
             </div>
