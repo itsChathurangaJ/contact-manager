@@ -35,7 +35,7 @@ class Contact extends Component {
                   style={{ cursor: "pointer" }}
                 />
                 <i
-                  className="fas fa-times"
+                  className="fas fa-trash-alt"
                   style={{ cursor: "pointer", float: "right", color: "red" }}
                   onClick={this.onDeleteClick.bind(this, id, dispatch)}
                 />
